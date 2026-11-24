@@ -1,17 +1,23 @@
-"""Dad Joke Showdown entry: write one dad joke to /output/entry.txt."""
+"""Dad Joke Showdown entry.
 
-from pathlib import Path
+Writes a single deadpan dad joke to /output/entry.txt.
+Deterministic, standard library only, no network, no input files.
+"""
 
-JOKE = (
-    "I set the Wi-Fi password to 'incorrect' — so when my kids ask what it is, "
-    "I can honestly say: it's incorrect."
-)
+import os
+
+JOKE = "A stapler is a paperclip that got a promotion and now holds everything together."
+
+OUTPUT_PATH = "/output/entry.txt"
 
 
-def main() -> None:
-    out = Path("/output/entry.txt")
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(JOKE + "\n", encoding="utf-8")
+def main():
+    # The gate refuses entries over 200 characters, so fail loudly here
+    # rather than shipping an invalid entry.
+    assert 1 <= len(JOKE) <= 200, "joke must be 1-200 characters"
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as handle:
+        handle.write(JOKE)
 
 
 if __name__ == "__main__":

@@ -2,6 +2,6 @@
 [![rank](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/Ikball53/u-mfnakmal-dad-joke-showdown-1d2ce3e5/rank.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5/leaderboard?utm_source=makefun&utm_medium=badge&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
 [![reward](https://make.fun/badge/u-mfnakmal-dad-joke-showdown-1d2ce3e5/Ikball53/u-mfnakmal-dad-joke-showdown-1d2ce3e5/reward.svg)](https://make.fun/bounty/u-mfnakmal-dad-joke-showdown-1d2ce3e5?utm_source=makefun&utm_medium=badge&utm_campaign=u-mfnakmal-dad-joke-showdown-1d2ce3e5)
 
-# Dad Joke Showdown
+# The Stapler's Promotion
 
-A single original dad joke, written by main.py to /output/entry.txt for the make.fun Dad Joke Showdown bounty.
+One deadpan dad joke about a stapler that got promoted — short, dry, and built to earn the biggest groan.
